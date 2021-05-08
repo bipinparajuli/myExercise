@@ -2,13 +2,12 @@ html,*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 button{
     padding: 10px 25px;
-    background-color: green;
     color: white;
-    border-radius: 5%;
 }
 
 a,li{
@@ -21,6 +20,7 @@ header{
 
     background-image: url("../img/547250750.png");
     background-attachment: fixed;
+    background-color: #406B55;
     background-repeat: no-repeat;
     height: 998px;
     margin: 0;
@@ -31,13 +31,16 @@ header{
 
 .header{
     display: flex;
-padding-top: 51px;
 justify-content: space-between;
 position: absolute;
 top: 51px;
 width: 100%;
 }
 
+.header_logo
+{
+    margin-left:5%;
+}
 
 nav>ul{
     display: flex;
@@ -102,6 +105,9 @@ main a{
 
 color: green;
 }
+.resources{
+    width: 367px;
+}
 
 .resources > ul >hr{
     margin: 20px 0;
@@ -129,6 +135,22 @@ justify-content: space-around;
     font-style: normal;
 }
 
+/* news footer */
+
+.news_footer_icon
+{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 5% 0;
+}
+
+.news_footer_icon>hr{
+    width: 123px;
+    margin:0 3% ;
+    background-color: #88C542;
+}
+
 /* RANDOM IMAGES */
 
 .some_random_images{
@@ -148,11 +170,30 @@ justify-content: space-around;
     width: 340px;
 }
 
+/* WHAT WE PROVIDE */
+
 .what_we_provide{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #423633;
+    color: white;
 }
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.card_shape img{
+padding-right: 12px;
+}
+
+.card_body p{
+    opacity: 0.5;
+    font-size: 16px;
+margin-top: 3%;
+}
+
 
 .facilities_detail{
     display: flex;
@@ -169,5 +210,8 @@ justify-content: space-around;
 .footer_container{
     display: flex;
     justify-content: space-between;
-    background-color: brown;
+    background-color:#333333;
+}
+.footer_container *{
+    padding: 5px 0;
 }
