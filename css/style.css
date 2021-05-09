@@ -84,9 +84,16 @@ align-items: center;
 }
 
 
-.first_card,.second_card,.third_card{
+._card{
     width: 200px;
     margin: 0 4% 4% 4%;
+}
+._card > h4{
+    color: #27AD6C;
+}
+
+._card > p{
+    color: #4A4A4A;
 }
 main{
     margin-top: 7%;
