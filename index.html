@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -37,7 +40,7 @@
 </nav>
 
 </div>
-<div class="hero_text">
+<div class="hero_text" >
     <h1>Are you Frontend Ninja?</h1>
 <p>Frontend ninjas are the superheroes who bring life into designs. We’re looking for frontend ninjas with knack of amazing attention to detail. Are you one? </p>
 
@@ -47,7 +50,6 @@
 </div>
 
     </header>
-
 <!-- main area -->
 
 <main>
@@ -62,8 +64,9 @@
 
     </div>
 
-    <div class="card_section">
-                <div class="_card">
+    
+    <div  class="card_section" data-aos="fade-up"  data-aos-duration="1000"  data-aos-offset="300">
+                <div  class="_card" >
                     <img src="./img/img_requirements_3.png" alt="">
                     <h4>Attention to detail</h4>
                     <p>
@@ -170,7 +173,7 @@
 <div class="what_we_provide">
     <h1 style="margin: 5% 0;">What we provide</h1>
 
-    <div class="facilities_detail">
+    <div class="facilities_detail" data-aos="fade-up"  data-aos-duration="1000"  data-aos-offset="300">
 
 <div class="card">
     <div class="card_shape">
@@ -313,6 +316,12 @@
         </nav>
     </div>
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+AOS.init();
+</script>
 
 </body>
 </html>
