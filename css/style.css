@@ -34,14 +34,27 @@ header{
     align-items: center;
 }
 
+.overlay{
+    background-color: #406B55;
+    height: 998px;
+    width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0.4;
+
+}
+
 .header{
 display: flex;
 justify-content: space-between;
 position: absolute;
 top: 51px;
 width: 100%;
-
+z-index: 1;
 }
+
+
 
 .header_logo
 {
@@ -65,6 +78,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-evenly;
 align-items: center;
+z-index: 1;
 }
 .hero_text p{
 opacity: 70%;
