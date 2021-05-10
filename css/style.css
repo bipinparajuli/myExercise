@@ -150,6 +150,7 @@ color: green;
 .news{
     display: flex;
 justify-content: space-around;
+flex-wrap: wrap;
 }
 
 .resources{
@@ -259,4 +260,11 @@ margin: 5% 2% 5% 0;
     padding: 5px 0;
 }
 
-@me
+@media only screen and (max-width: 800px) {
+   .vl{
+       display: none;
+   }
+   .latest{
+       margin-top: 3%;
+   }
+  }
